@@ -259,6 +259,7 @@ function AdminR () {
           Бүртгэх
         </Button>
       </Form.Item>
+      
   
       <div className='view-container'>
           {admins.length>0&&<>

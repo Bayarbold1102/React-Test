@@ -3,13 +3,12 @@
   min-height: 100vh;
 }
 .auth {
-  overflow: scroll;
+  margin-right: 50%;
   .ant-input-number {
     width: 100%;
   }
   .row {
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-right: 50%;
     .auth__form {
       margin-left: 100%;
       border-radius: 8px;
