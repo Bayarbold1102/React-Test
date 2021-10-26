@@ -55,7 +55,14 @@ function SignUpForm() {
           <Link to="/admin">Нэвтрэх</Link>
         </Button>
       </Form.Item>
-    </Form></div>
+
+      <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+        <Button className='button' type="submit" htmlType="submit">
+          <Link to="/main">Main</Link>
+        </Button>
+      </Form.Item>
+    </Form>
+    </div>
       <SignUpType state={state} setstate={setstate} />
     </div>
   );

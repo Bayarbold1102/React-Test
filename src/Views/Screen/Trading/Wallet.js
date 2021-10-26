@@ -1,0 +1,10 @@
+
+import React, { useState } from 'react';
+
+
+function Wallet  () {
+  return (
+      <div>Wallet</div>
+  );
+};
+ export default Wallet;

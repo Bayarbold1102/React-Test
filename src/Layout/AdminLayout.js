@@ -16,7 +16,9 @@ const { SubMenu } = Menu;
 const routes =[{path:'/user/admin', sidebar: ()=> <div>admin!</div>,main: ()=> <h2>User/Admin</h2>},
 {path:'/user/superadmin', sidebar: ()=> <div>superadmin!</div>,main: ()=> <h2>User/SuperAdmin</h2>},
 {path:'/user/customer', sidebar: ()=> <div>customer!</div>,main: ()=> <h2>User/Customer</h2>},
-{path:'/list', sidebar: ()=> <div>list!</div>,main: ()=> <h2>List</h2>}]
+{path:'/list', sidebar: ()=> <div>list!</div>,main: ()=> <h2>List</h2>},
+{path:'/option1', sidebar: ()=> <div>option1!</div>,main: ()=> <h2>Option1</h2>},
+{path:'/option2', sidebar: ()=> <div>option2!</div>,main: ()=> <h2>Option2</h2>}]
 
 function AdminLayout({children}) {
   const [collapsed, setCollapsed] = useState("")
@@ -26,10 +28,10 @@ function AdminLayout({children}) {
           <div className="logo" />
           <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
             <Menu.Item key="1" icon={<PieChartOutlined />}>
-              Option 1
+             <Link to ='/option1'> Option 1</Link>
             </Menu.Item>
             <Menu.Item key="2" icon={<DesktopOutlined />}>
-              Option 2
+            <Link to ='/option2'> Option 2</Link>
             </Menu.Item>
             <SubMenu key="sub1" icon={<UserOutlined />} title="Хэрэглэгч бүртгэл">
               <Menu.Item key="3"><Link to="/user/superadmin">SuperAdmin</Link></Menu.Item>

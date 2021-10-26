@@ -1,0 +1,38 @@
+.site-layout-content {
+  min-height: 905px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  background-image: linear-gradient(
+    to right top,
+    #243ba6,
+    #304cb0,
+    #3d5dba,
+    #4b6dc2,
+    #5b7eca,
+    #558cd2,
+    #529ad9,
+    #54a7de,
+    #3fb4e0,
+    #36c0dd,
+    #42cbd6,
+    #5bd5cd
+  );
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.flex {
+  display: flex;
+}
+.profile {
+  margin-left: auto;
+}

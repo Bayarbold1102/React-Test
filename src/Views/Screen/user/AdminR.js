@@ -11,7 +11,6 @@ import {
   Button,
   AutoComplete,
 } from 'antd';
-import {List} from './List'
 const { Option } = Select;
 
 const formItemLayout = {
@@ -91,7 +90,9 @@ function AdminR () {
     localStorage.setItem('admins', JSON.stringify(admins));
     localStorage.setItem('password', JSON.stringify(password));
     localStorage.setItem('name', JSON.stringify(name));
-   },[ admins, password, name])
+    localStorage.setItem('email', JSON.stringify(email));
+    localStorage.setItem('phone', JSON.stringify(phone));
+   },[ admins, password, name, email, phone])
   return (  
     <Form
     onSubmit={handleSubmit}
@@ -259,28 +260,6 @@ function AdminR () {
           Бүртгэх
         </Button>
       </Form.Item>
-      
-  
-      <div className='view-container'>
-          {admins.length>0&&<>
-            <div className='table-responsive'>
-              <table className='table'>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Password</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <List admins={admins} />
-                </tbody>
-              </table>
-            </div>
-          </>}
-          {admins.length < 1 && <div>No admins are added yet</div>}
-        </div>
     </Form>
   );
 };
