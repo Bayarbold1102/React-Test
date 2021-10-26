@@ -1,24 +1,37 @@
 .container {
   display: flex;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.second {
+  display: flex;
   flex-direction: row;
 }
 .chart {
   background-image: linear-gradient(to right top, #13182e, #1c2440);
   width: 70%;
-  min-height: 500px;
+  height: 500px;
 }
 .info {
   position: relative;
   background-image: linear-gradient(to right top, #13182e, #1c2440);
   width: 280px;
-  min-height: 700px;
+  height: 700px;
   margin-left: 5px;
 }
-
 .info2 {
   position: relative;
   background-image: linear-gradient(to right top, #13182e, #1c2440);
   width: 280px;
   min-height: 700px;
   margin-left: 5px;
+}
+.container2 {
+  position: relative;
+  background-image: linear-gradient(to right top, #13182e, #1c2440);
+  width: 70%;
+  min-height: 200px;
+  margin-top: 5px;
 }
