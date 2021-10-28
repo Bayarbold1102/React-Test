@@ -19,20 +19,13 @@
   margin-left: auto;
 }
 .layout {
-  height: 100%;
+  min-height: 100%;
   background-image: linear-gradient(
     to right top,
-    #243ba6,
-    #304cb0,
-    #3d5dba,
-    #4b6dc2,
-    #5b7eca,
-    #558cd2,
-    #529ad9,
-    #54a7de,
-    #3fb4e0,
-    #36c0dd,
-    #42cbd6,
-    #5bd5cd
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
   );
 }
