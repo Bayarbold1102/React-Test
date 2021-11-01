@@ -11,10 +11,12 @@
   background-color: unset;
 }
 .chart {
-  background-image: linear-gradient(to right top, #13182e, #1c2440);
+  border: 1px solid #353a44;
+  border-radius: 5px;
   width: 100%;
   height: 500px;
   margin-bottom: 5px;
+  margin-top: 30px;
 }
 .info3 {
 }
@@ -43,12 +45,12 @@
   margin-right: 5px;
 }
 .header-chart {
-  background-image: linear-gradient(to right top, #13182e, #1c2440);
-  width: 100%;
-  min-height: 50px;
+  width: 50%;
+  min-height: 140px;
   margin-bottom: 5px;
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .presecond {
@@ -67,4 +69,49 @@
 
 .header-chart-text {
   font-size: medium;
+}
+.crypto1 {
+  border: 1px solid #353a44;
+  background-image: linear-gradient(
+    to right top,
+    #f0f00a,
+    #f6dd00,
+    #f9c900,
+    #fab600,
+    #f9a302
+  );
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.crypto2 {
+  border: 1px solid #353a44;
+  background-image: linear-gradient(
+    to right top,
+    #f514ff,
+    #df0cfa,
+    #c806f4,
+    #b003ee,
+    #9803e7
+  );
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.crypto3 {
+  border: 1px solid #353a44;
+  background-image: linear-gradient(
+    to right top,
+    #00b3f2,
+    #0098fe,
+    #0078ff,
+    #0052fe,
+    #1703e7
+  );
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
 }

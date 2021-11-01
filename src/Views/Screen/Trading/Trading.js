@@ -1,20 +1,28 @@
 
-import React, { useState } from 'react';
+import React, { useState , PureComponent} from 'react';
 import trading from '../../../Assets/css/trading.css'
-import { Layout, Typography} from 'antd';
+import { Layout, Typography, Dropdown, Menu} from 'antd';
+import { DownOutlined } from '@ant-design/icons';
 import  TradeViewChart  from 'react-crypto-chart';
 import { Content } from 'antd/lib/layout/layout';
+import Chart from '../../Auth/Components/Chart'
 
-const {Text} = Typography;
-
+import Bitcoin from '../../Auth/Components/Bitcoin'
 function Trading  () {
+
   return (
       <Layout className='container'>
           <Layout className='first'>
             <Content className='header-chart'>
-              <Text className='header-chart-text' type='success'>Blooop</Text>
+              <Content className='crypto1'>
+                <Bitcoin/>
+              </Content>
+              <Content className='crypto2'></Content>
+              <Content className='crypto3'></Content>
             </Content>
-              <Content className='chart'></Content>
+              <Content className='chart'>
+            <Chart/>
+              </Content>
             <Content className='info3'>
               <Content className='info4'></Content>
             </Content>

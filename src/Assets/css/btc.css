@@ -1,0 +1,7 @@
+.text {
+  display: flex;
+  color: aliceblue;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+}
