@@ -6,7 +6,6 @@
   margin: 20px;
 }
 .crypto1-1 {
-  border: 1px solid #353a44;
   background-image: linear-gradient(
     to right top,
     #f0f00a,
@@ -15,6 +14,9 @@
     #fab600,
     #f9a302
   );
+
+  box-shadow: 0 0 5px #fff, 0 0 5px #eeea18, 0 0 5px #c4e600, 0 0 5px #e6bc00,
+    0 0 10px #e6bc00, 0 0 25px #e6bc00;
 
   width: 200px;
   min-height: 150px;
@@ -29,7 +31,6 @@
   margin: 20px;
 }
 .crypto2-2 {
-  border: 1px solid #353a44;
   background-image: linear-gradient(
     to right top,
     #f514ff,
@@ -38,6 +39,9 @@
     #b003ee,
     #9803e7
   );
+
+  box-shadow: 0 0 5px #fff, 0 0 5px #de00e6, 0 0 5px #b800e6, 0 0 5px #e600c0,
+    0 0 10px #d300e6, 0 0 25px #e600c7;
 
   width: 200px;
   min-height: 150px;
@@ -53,7 +57,6 @@
 }
 
 .crypto3-3 {
-  border: 1px solid #353a44;
   background-image: linear-gradient(
     to right top,
     #00b3f2,
@@ -63,6 +66,8 @@
     #1703e7
   );
 
+  box-shadow: 0 0 5px #fff, 0 0 5px #0073e6, 0 0 5px #0073e6, 0 0 5px #0073e6,
+    0 0 10px #0073e6, 0 0 25px #0073e6;
   width: 200px;
   min-height: 150px;
   border-radius: 10px;
