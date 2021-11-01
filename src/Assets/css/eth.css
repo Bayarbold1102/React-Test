@@ -1,0 +1,70 @@
+.crypto1 {
+  border: 1px solid #353a44;
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.crypto1-1 {
+  border: 1px solid #353a44;
+  background-image: linear-gradient(
+    to right top,
+    #f0f00a,
+    #f6dd00,
+    #f9c900,
+    #fab600,
+    #f9a302
+  );
+
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.crypto2 {
+  border: 1px solid #353a44;
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.crypto2-2 {
+  border: 1px solid #353a44;
+  background-image: linear-gradient(
+    to right top,
+    #f514ff,
+    #df0cfa,
+    #c806f4,
+    #b003ee,
+    #9803e7
+  );
+
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.crypto3 {
+  border: 1px solid #353a44;
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.crypto3-3 {
+  border: 1px solid #353a44;
+  background-image: linear-gradient(
+    to right top,
+    #00b3f2,
+    #0098fe,
+    #0078ff,
+    #0052fe,
+    #1703e7
+  );
+
+  width: 200px;
+  min-height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
