@@ -15,8 +15,8 @@
     #f9a302
   );
 
-  box-shadow: 0 0 5px #fff, 0 0 5px #eeea18, 0 0 5px #c4e600, 0 0 5px #e6bc00,
-    0 0 10px #e6bc00, 0 0 25px #e6bc00;
+  box-shadow: 0 0 2px #fff, 0 0 5px #eeea18, 0 0 3px #c4e600, 0 0 2px #e6bc00,
+    0 0 3px #e6bc00, 0 0 5px #e6bc00;
 
   width: 200px;
   min-height: 150px;
@@ -40,8 +40,8 @@
     #9803e7
   );
 
-  box-shadow: 0 0 5px #fff, 0 0 5px #de00e6, 0 0 5px #b800e6, 0 0 5px #e600c0,
-    0 0 10px #d300e6, 0 0 25px #e600c7;
+  box-shadow: 0 0 2px #fff, 0 0 5px #de00e6, 0 0 3px #b800e6, 0 0 2px #e600c0,
+    0 0 3px #d300e6, 0 0 5px #e600c7;
 
   width: 200px;
   min-height: 150px;
@@ -66,8 +66,8 @@
     #1703e7
   );
 
-  box-shadow: 0 0 5px #fff, 0 0 5px #0073e6, 0 0 5px #0073e6, 0 0 5px #0073e6,
-    0 0 10px #0073e6, 0 0 25px #0073e6;
+  box-shadow: 0 0 2px #fff, 0 0 5px #0073e6, 0 0 3px #0073e6, 0 0 2px #0073e6,
+    0 0 3px #0073e6, 0 0 5px #0073e6;
   width: 200px;
   min-height: 150px;
   border-radius: 10px;

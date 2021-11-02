@@ -1,7 +1,7 @@
 .text {
   display: flex;
   color: aliceblue;
-  font-size: large;
+  font-size: 18px;
   justify-content: center;
   align-items: center;
 }

@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react'
+import React, { useState } from 'react'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
@@ -45,9 +45,11 @@ const data = [
     amt: 2100,
   },
 ];
+
+
 function Chart(){
     return(
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%"  height="100%">
         <LineChart
           data={data}
           margin={{
@@ -62,8 +64,9 @@ function Chart(){
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 3}} />
-          <Line type="monotone" dataKey="uv" stroke="#82ca9d" activeDot={{ r: 3}} />
+          <Line type="monotone" dataKey="pv" stroke="#f6dd00" activeDot={{ r: 3}} />
+          <Line type="monotone" dataKey="uv" stroke="#00b3f2" activeDot={{ r: 3}} />
+          <Line type="monotone" dataKey="amt" stroke=" #f514ff" activeDot={{ r: 3}} />
         </LineChart>
       </ResponsiveContainer>
     )
