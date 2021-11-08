@@ -11,9 +11,9 @@ import Bitcoin from '../../Auth/Components/Bitcoin';
 import Crypto from 'Views/Auth/Components/Crypto';
 import Exchange from '../../Auth/Components/Exchange'
 import Data from '../../Auth/data/Data'
+import Data2 from '../../Auth/data/Data2'
 
 function Trading () {
-
   return (
       <Layout className='container'>
           <Layout className='first'>
@@ -29,7 +29,8 @@ function Trading () {
                         <Content>Total</Content>
                       </Content>
                       <Content className='buys'><Data/></Content>
-                      <Content className='sells'></Content>
+                      <Content>dsa</Content>
+                      <Content className='sells'><Data2/></Content>
                     </Content>
                   </Content>
                   <Content className='mainbar'>
