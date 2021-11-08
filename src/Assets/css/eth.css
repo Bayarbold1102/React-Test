@@ -1,9 +1,9 @@
 .crypto1 {
   border: 1px solid #353a44;
-  width: 200px;
-  min-height: 150px;
+  width: 10%;
+  min-height: 50px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 5px;
 }
 .crypto1-1 {
   background-image: linear-gradient(
@@ -18,17 +18,17 @@
   box-shadow: 0 0 2px #fff, 0 0 5px #eeea18, 0 0 3px #c4e600, 0 0 2px #e6bc00,
     0 0 3px #e6bc00, 0 0 5px #e6bc00;
 
-  width: 200px;
-  min-height: 150px;
+  width: 10%;
+  min-height: 50px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 5px;
 }
 .crypto2 {
   border: 1px solid #353a44;
-  width: 200px;
-  min-height: 150px;
+  width: 10%;
+  min-height: 100px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 5px;
 }
 .crypto2-2 {
   background-image: linear-gradient(
@@ -43,17 +43,17 @@
   box-shadow: 0 0 2px #fff, 0 0 5px #de00e6, 0 0 3px #b800e6, 0 0 2px #e600c0,
     0 0 3px #d300e6, 0 0 5px #e600c7;
 
-  width: 200px;
-  min-height: 150px;
+  width: 10%;
+  min-height: 100px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 5px;
 }
 .crypto3 {
   border: 1px solid #353a44;
-  width: 200px;
-  min-height: 150px;
+  width: 80%;
+  min-height: 100px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 5px;
 }
 
 .crypto3-3 {
@@ -68,8 +68,8 @@
 
   box-shadow: 0 0 2px #fff, 0 0 5px #0073e6, 0 0 3px #0073e6, 0 0 2px #0073e6,
     0 0 3px #0073e6, 0 0 5px #0073e6;
-  width: 200px;
-  min-height: 150px;
+  width: 80%;
+  min-height: 100px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 5px;
 }

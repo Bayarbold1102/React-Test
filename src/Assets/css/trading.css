@@ -10,21 +10,14 @@
   margin-right: 5px;
   background-color: unset;
 }
-.chart {
-  border: 1px solid #353a44;
-  border-radius: 5px;
+.main {
   width: 100%;
-  height: 500px;
+  height: 1000px;
   margin-bottom: 5px;
   margin-top: 30px;
-}
-.info3 {
-}
-.info4 {
-  border: 1px solid #353a44;
-  border-radius: 5px;
-  width: 100%;
-  height: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
 }
 .second {
   display: flex;
@@ -46,7 +39,7 @@
   margin-right: 5px;
 }
 .header-chart {
-  width: 800px;
+  width: 100.5%;
   min-height: 140px;
   margin-bottom: 5px;
   display: flex;
@@ -57,48 +50,102 @@
 .header-chart-text {
   font-size: medium;
 }
-/* .crypto1 {
-  border: 1px solid #353a44;
-  background-image: linear-gradient(
-    to right top,
-    #f0f00a,
-    #f6dd00,
-    #f9c900,
-    #fab600,
-    #f9a302
-  );
-  width: 200px;
-  min-height: 150px;
-  border-radius: 10px;
-  margin: 20px;
+
+.info5 {
+  width: 30%;
 }
-.crypto2 {
+
+.sidebar1 {
   border: 1px solid #353a44;
-  background-image: linear-gradient(
-    to right top,
-    #f514ff,
-    #df0cfa,
-    #c806f4,
-    #b003ee,
-    #9803e7
-  );
-  width: 200px;
-  min-height: 150px;
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 5px;
+  width: 15%;
+  height: 100%;
 }
-.crypto3 {
+.mainbar {
+  width: 70%;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sidebar2 {
   border: 1px solid #353a44;
-  background-image: linear-gradient(
-    to right top,
-    #00b3f2,
-    #0098fe,
-    #0078ff,
-    #0052fe,
-    #1703e7
-  );
-  width: 200px;
-  min-height: 150px;
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 5px;
+  width: 15%;
+  height: 100%;
+}
+.chart {
+  border: 1px solid #353a44;
+  border-radius: 5px;
+  width: 100%;
+  height: 40%;
+}
+.exchange {
+  /* border: 1px solid #353a44; */
+  border-radius: 5px;
+  width: 100%;
+  height: 23%;
+  margin-top: 5px;
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+}
+.history {
+  border: 1px solid #353a44;
+  border-radius: 5px;
+  width: 100%;
+  height: 36%;
+  margin-top: 5px;
+}
+.exchangeSell {
+  min-width: 40%;
+  min-height: 80%;
+  margin-left: 10px;
+}
+.exchangeBuy {
+  min-width: 40%;
+  min-height: 80%;
+  margin-right: 10px;
+}
+.exchangeSell .btn {
+  font-weight: 55=00;
+  font-size: large;
+  color: white;
+  background-color: #e03737;
+  border-color: #e65050;
+}
+.exchangeSell .btn:hover {
+  background-color: #e95a5a;
+}
+.exchangeBuy .btn:hover {
+  background-color: #4ce7a2;
+}
+.exchangeBuy .btn {
+  font-weight: 500;
+  font-size: large;
+  color: white;
+  background-color: #1bde86;
+  border-color: #1bde86;
+}
+/* .exchangeBuy .btn:after {
+  content: "Buy";
+}
+.exchangeSell .btn:after {
+  content: "Sell";
 } */
+
+.sidebar1-main {
+  display: flex;
+  flex-direction: column;
+}
+.titles {
+  display: flex;
+  flex-direction: row;
+  color: #616979;
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+}
+.buys {
+}
+.sells {
+}
